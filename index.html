@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fit-stretching</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title navbar-brand text-dark" id="exampleModalLabel">FIT STRETCHING</h5><br>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table id="schedule" border="1px" cellpadding="5px">
+
+                    </table>
+                </div>
+                <div class="modal-footer d-flex jus">
+                    <a class="btn btn-primary" href="#footer">ЗАПИСАТЬСЯ</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">ЗАКРЫТЬ</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-5 py-3">
+        <a class="navbar-brand" href="#">FIT STRETCHING</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto mt-1" id="menu">
+                <a class="nav-link" href="#about">О нас</a>
+                <a class="nav-link" data-toggle="modal" data-target="#exampleModal">Расписание</a>
+                <a class="nav-link" href="#price">Цены</a>
+                <a class="nav-link" href="#map">Контакты</a>
+            </ul>
+            <div class="navbar-text">
+                <span class="number mr-4">+7 (900) 540-49-08</span>
+                <a href="https://vk.com/fit_stretching" target="blank"><img src="img/vk.png" alt="Vk" width="30px" height="30px" class="mx-1"></a>
+                <a href="https://www.instagram.com/fit_stretching/" target="blank"><img src="img/insta.png" alt="Instagram" width="30px" height="30px" class="mx-1"></a>
+                <a href="https://wa.me/79005404908" target="blank"><img src="img/watsup.png" alt="Instagram" width="30px" height="30px" class="mx-1"></a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100">
+                        <div class="carousel-item active">
+                            <div class="blockFon">
+                                <div class="m-auto text-center">
+                                    <p>
+                                       ПЕРВАЯ СТУДИЯ РАСТЯЖКИ В ВОЛОГДЕ
+                                    </p>
+                                    <span>FIT STRETCHING</span>
+                                    <br>
+                                    <a href="#footer" class="myBtn">Узнать подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="blockFon">
+                                <div class="m-auto text-center">
+                                    <p>
+                                        РАСТЯГИВАЙТЕСЬ С ПРОФЕССИОНАЛАМИ
+                                    </p>
+                                    <span>Северная 7А, ТРЦ КИТ, 5 этаж</span>
+                                    <br>
+                                    <a href="#footer" class="myBtn">Узнать подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="blockFon">
+                                <div class="m-auto text-center">
+                                    <p>
+                                       ЗАНИМАЙТЕСЬ ПО УТРАМ
+                                    </p>
+                                    <span>Экономия до 15% на утренние абонементы</span>
+                                    <br>
+                                    <a href="#footer" class="myBtn">Записаться</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="line mx-auto"></div>
+        <div class="row">
+            <div class="col-md-12 text-center title2">Хватит получать травмы,<br>занимайтесь с профессионалами!</div>
+        </div>
+        <div class="line mx-auto"></div>
+    </div>
+    <div class="container-fluid px-0" id="overflow">
+        <div class="row blockFon m-0 p-2 flex-row py-5">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 pt-5 mx-5 my-auto">
+                <h1 class="text-center">Добро пожаловать в студию растяжки <br> FIT STRETCHING.</h1> 
+<p class="textAbout">Мы уже более двух лет осуществляем мечты многих девушек.</p>
+<p class="textAbout">Если хочешь ровный шпагат, подтянутое тело, красивую осанку самое время прийти к нам.
+Неважно какой у тебя уровень подготовки, у нас самые эффективные упражнений для достижения твоей цели.</p>
+<p class="textAbout">Замеряем результаты каждый месяц и в наших группах не более 8 человек, поэтому тренер успевает уделить время каждому.
+Приглашаем попробовать себя на бесплатное Пробное занятие.</p>
+<p class="textAbout">Мы находимся в ТРЦ КИТ, 5 этаж.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white py-5" id="textAbout">
+            <div class="row">
+                    <div class="col-md-12 pt-0">
+                            <h1 class="text-center pb-3">Добро пожаловать в студию растяжки <br> FIT STRETCHING.</h1> 
+            <p class="textAbout">Мы уже более двух лет осуществляем мечты многих девушек.</p>
+            <p class="textAbout">Если хочешь ровный шпагат, подтянутое тело, красивую осанку самое время прийти к нам.
+            Неважно какой у тебя уровень подготовки, у нас самые эффективные упражнений для достижения твоей цели.</p>
+            <p class="textAbout">Замеряем результаты каждый месяц и в наших группах не более 8 человек, поэтому тренер успевает уделить время каждому.
+            Приглашаем попробовать себя на бесплатное Пробное занятие.</p>
+            <p class="textAbout">Мы находимся в ТРЦ КИТ, 5 этаж.</p>
+                    </div>
+            </div>
+    </div>
+    <div class="container-fluid mb-5 pb-5" id="about">
+        <div class="row justify-content-center text-center marg">
+            <span class="title2">Нам доверяют самое важное - себя<br>
+                и мы отлично справляемся со своей работой</span>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3 text-center">
+                <img src="img/1.svg" alt="" class="paramsFoto">
+                <p class="paramsTitle">Мы - ПРОФЕССИОНАЛЫ</p>
+                <p class="paramsText">Никаких травм и разочарований. <br>
+                        Только правильная техника и ровный шпагат.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="img/2.svg" alt="" class="paramsFoto">
+                <p class="paramsTitle">Индивидуальный подход</p>
+                <p class="paramsText">Мы учитываем особенности здоровья и уровень физической подготовки каждого.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="img/3.svg" alt="" class="paramsFoto">
+                <p class="paramsTitle">Мини-группы</p>
+                <p class="paramsText">Так вы достигаете результатов быстрее. <br>
+                        Нам важно качество, а не количество.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-3 text-center">
+                <img src="img/4.svg" alt="" class="paramsFoto">
+                <p class="paramsTitle">Удобное расположение</p>
+                <p class="paramsText">Студия в людном месте Вологды. <br> Всего в нескольких минутах ходьбы от автобуса</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="img/5.svg" alt="" class="paramsFoto">
+                <p class="paramsTitle">Единый абонемент</p>
+                <p class="paramsText">Чередуйте направления, открывайте новое. <br> Развивайтесь вместе с нами</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="img/6.svg" alt="" class="paramsFoto">
+                <p class="paramsTitle">Гибкое расписание</p>
+                <p class="paramsText">Ежедневно. Утром, днем или вечером. <br>
+                        Выбирайте подходящее для себя.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0" id="bigBlock1">
+        <div class="row blockFon m-0 p-2">
+            <div class="m-auto text-center">
+                <p class="planTitle">
+                        Занимайтесь индивидуально без посторонних глаз, <br>
+                        или подберите группу и заведите новых друзей
+                </p>
+                <br>
+                <a href="" class="myBtn mb-5" data-toggle="modal" data-target="#exampleModal">РАСПИСАНИЕ</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid price1">
+        <div class="row text-center">
+            <div class="col-md-12 title2 marg2" id="price">
+                <p>Выберите дневной абонемент</p>
+
+                    <p>Занимайтесь с 8:30 до 16:45 и экономьте до 15%</p>
+            </div>
+        </div>
+        <div class="row justify-content-center rowCatalog1">
+            <div class="col-md-3 blockOffer">
+                <p class="text1">4 занятия</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в группе</p>
+                <p class="text4">800₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 200₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">8 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в группе</p>
+                <p class="text4">1400₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 175₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">12 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в группе</p>
+                <p class="text4">2000₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 167₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+        </div>
+        <div class="row justify-content-center rowCatalog1">
+            <div class="col-md-3 blockOffer">
+                <p class="text1">4 занятия</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в мини-группе</p>
+                <p class="text4">1100₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 275₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">8 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в мини-группе</p>
+                <p class="text4">1900₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 237₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">12 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в мини-группе</p>
+                <p class="text4">2800₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 234₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+        </div>
+        <div class="row justify-content-center rowCatalog1">
+            <div class="col-md-3 blockOffer">
+                <p class="text1">4 занятия</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">индивидуально</p>
+                <p class="text4">1300₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 325₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">8 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">индивидуально</p>
+                <p class="text4">2400₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 300₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">12 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">индивидуально</p>
+                <p class="text4">3500₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 292₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+        </div>
+        <div class="text-center my-4 showPrice1">Показать ещё<br><img src="img/bottom.png" class="bottom"></div>
+    </div>
+    <div class="container-fluid price">
+        <div class="row text-center">
+            <div class="col-md-12 title2 marg2">
+                <p>Абонементы на полный день <br> c 8:30 до 22:00</p>
+            </div>
+        </div>
+        <div class="row justify-content-center rowCatalog">
+            <div class="col-md-3 blockOffer">
+                <p class="text1">Одноразовый</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">индивидуально</p>
+                <p class="text4">450₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">&#160;</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">4 занятия</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в группе</p>
+                <p class="text4">900₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 225₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">8 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в группе</p>
+                <p class="text4">1600₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 200₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+        </div>
+        <!-- <div class="row title2 justify-content-center py-5">
+            <p class="text-center">Абонементы на полный день <br>
+                    с 8:30 до 22:00</p>
+        </div> -->
+        <div class="row justify-content-center rowCatalog">
+            <div class="col-md-3 blockOffer">
+                <p class="text1">12 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в группе</p>
+                <p class="text4">2300₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 192₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">Безлимит</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в группе</p>
+                <p class="text4">4900₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 163₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">Одноразовый</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в группе</p>
+                <p class="text4">350₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">&#160;</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+        </div>
+        <div class="row justify-content-center rowCatalog">
+            <div class="col-md-3 blockOffer">
+                <p class="text1">4 занятия</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в мини-группе</p>
+                <p class="text4">1200₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 300₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">8 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в мини-группе</p>
+                <p class="text4">2200₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 275₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">12 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">в мини-группе</p>
+                <p class="text4">3200₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 267₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+        </div>
+        <div class="row justify-content-center rowCatalog">
+            <div class="col-md-3 blockOffer">
+                <p class="text1">4 занятия</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">индивидуально</p>
+                <p class="text4">1500₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 375₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">8 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">индивидуально</p>
+                <p class="text4">2800₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 350₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+            <div class="col-md-3 blockOffer">
+                <p class="text1">12 занятий</p>
+                <p class="text2">STRETCHING | FIT | YOGA</p>
+                <p class="text3">индивидуально</p>
+                <p class="text4">4100₽</p>
+                <p class="text5">Срок действия: 30 дней</p>
+                <p class="text5">1 занятие: 342₽</p>
+                <a class="myBtn" href="#footer">ЗАПИСАТЬСЯ</a>
+            </div>
+        </div>
+        <div class="text-center my-4 showPrice">Показать ещё<br><img src="img/bottom.png" class="bottom"></div>
+    </div>
+    <div class="container-fluid mb-4 infoMapOut">
+        <div class="row">
+            <div class="col-md-12">
+                <strong class="mapTitle"><span>Fit</span>Stretching</strong>
+                <p class="adress">Северная 7А, ТРЦ КИТ, 5 этаж</p>
+                <a href="https://vk.com/fit_stretching" target="blank"><img src="img/vkBlack.png" alt="Vk" width="30px" height="30px" class="mx-1"></a>
+                <a href="https://www.instagram.com/fit_stretching/" target="blank"><img src="img/instaBlack.png" alt="Instagram" width="30px" height="30px" class="mx-1"></a>
+                <a href="https://wa.me/79005404908" target="blank"><img src="img/watsupBlack.png" alt="Instagram" width="30px" height="30px" class="mx-1"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="map">
+        <div class="row map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A57238b03e6a80171e87204a45947bbb3d8e0eb97e5e62d6cc5dbfe6d94822f2f&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+            <div class="infoMap">
+                <strong class="mapTitle"><span>Fit</span>Stretching</strong>
+                <p class="adress">Северная 7А, ТРЦ КИТ, 5 этаж</p>
+                <a href="https://vk.com/fit_stretching" target="blank"><img src="img/vkBlack.png" alt="Vk" width="30px" height="30px" class="mx-1"></a>
+                <a href="https://www.instagram.com/fit_stretching/" target="blank"><img src="img/instaBlack.png" alt="Instagram" width="30px" height="30px" class="mx-1"></a>
+                <a href="https://wa.me/79005404908" target="blank"><img src="img/watsupBlack.png" alt="Instagram" width="30px" height="30px" class="mx-1"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="line mx-auto"></div>
+        <div class="row">
+            <div class="col-md-12 text-center title2">ДОБАВЛЯЙСЯ К НАШЕМУ СООБЩЕСТВУ И <br> СТАНОВИТЕСЬ ЛУЧШЕ ВМЕСТЕ С НАМИ</div>
+        </div>
+        <div class="line mx-auto"></div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="grid">
+                <label for="pic-1" class="grid-item"><a href=""><img src="img/foto1.jpg"/></a></label>
+                <label for="pic-2" class="grid-item"><a href=""><img src="img/foto2.jpg"/></a></label>
+                <label for="pic-3" class="grid-item"><a href=""><img src="img/foto3.jpg"/></a></label>
+                <label for="pic-4" class="grid-item"><a href=""><img src="img/foto4.jpg"/></a></label>
+                <label for="pic-5" class="grid-item"><a href=""><img src="img/foto5.jpg"/></a></label>
+                <label for="pic-6" class="grid-item"><a href=""><img src="img/foto6.jpg"/></a></label>
+                <label for="pic-7" class="grid-item"><a href=""><img src="img/foto7.jpg"/></a></label>
+                <label for="pic-8" class="grid-item"><a href=""><img src="img/foto8.jpg"/></a></label>
+                <label for="pic-9" class="grid-item"><a href=""><img src="img/foto9.jpg"/></a></label>
+                <label for="pic-10" class="grid-item"><a href=""><img src="img/foto10.jpg"/></a></label>
+                <label for="pic-11" class="grid-item"><a href=""><img src="img/foto11.jpg"/></a></label>
+                <label for="pic-12" class="grid-item"><a href=""><img src="img/foto12.jpg"/></a></label>
+                <label for="pic-13" class="grid-item"><a href=""><img src="img/foto13.jpg"/></a></label>
+                <label for="pic-14" class="grid-item"><a href=""><img src="img/foto14.jpg"/></a></label>
+                <label for="pic-15" class="grid-item"><a href=""><img src="img/foto15.jpg"/></a></label>
+                <label for="pic-16" class="grid-item"><a href=""><img src="img/foto16.jpg"/></a></label>
+            </div>
+            <div id="showFoto" class="text-center">Показать ещё<br><img src="img/bottom.png" class="bottom"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="line mx-auto"></div>
+        <div class="row">
+            <div class="col-md-12 text-center title2">ОТКРОЙТЕ НОВЫЕ СПОСОБНОСТИ СВОЕГО ТЕЛА</div>
+        </div>
+        <div class="line mx-auto"></div>
+    </div>
+    <div class="container-fluid p-0" id="footer">
+        <div class="row blockFon m-0">
+            <div class="m-auto text-center" id="callNow">
+                <p class="pb-4">ЗАПИШИСЬ ПРЯМО СЕЙЧАС!</p>
+                <form action="sendform.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" class="formPole" placeholder="Фамилия Имя Отчество" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="phone" class="formPole" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="formPole" placeholder="E-mail (по желанию)">
+                    </div>
+                    <button type="submit" class="myBtn w-100 m-0">Записаться</button>
+                </form>
+                <div class="footerInfo">* Бесплатное пробное занятие распространяется только на групповые занятия Stretching</div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4" id="blackFooter">
+        <div class="row">
+            <div class="col-md-2 brandFooter">
+                <p>© 2019 <span style="color: #c71010;">FIT</span>Stretching</p>
+            </div>
+            <div class="col-md-8">
+                
+            </div>
+            <div class="col-md-2 text-right">
+                <a href="" class="brandFooter">В начало <svg width="5px" height="17px" viewBox="0 0 6 20" version="1.1"> <defs></defs> <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Desktop-HD-Copy-39" sketch:type="MSArtboardGroup" transform="translate(-569.000000, -1797.000000)" fill="#bdbdbd"> <path d="M565.662286,1804.2076 L562.095536,1806.87166 C561.958036,1807.00916 561.958036,1807.16385 562.095536,1807.30135 L565.662286,1809.96541 C565.799786,1810.10291 565.941411,1810.0431 565.941411,1809.83616 L565.941411,1808.11741 L581.816411,1808.11741 L581.816411,1806.05491 L565.941411,1806.05491 L565.941411,1804.33616 C565.941411,1804.18147 565.866474,1804.1141 565.769536,1804.14297 C565.737224,1804.1526 565.696661,1804.17322 565.662286,1804.2076 Z" id="Shape" sketch:type="MSShapeGroup" transform="translate(571.904411, 1807.088000) rotate(-270.000000) translate(-571.904411, -1807.088000) "></path> </g> </g></svg></a>
+            </div>
+        </div>
+    </div>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(56253478, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/56253478" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+ <script src="//code-ya.jivosite.com/widget.js" data-jv-id="XdLrOUuqMe" async></script>
+ <script src="jquery-1.11.0.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

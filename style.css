@@ -1,0 +1,524 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+#showPrice{
+    cursor: pointer;
+}
+#overflow{
+    overflow: hidden;
+    background: url(img/fonAbout.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position-x: right;
+}
+#textAbout{
+    display: none;
+}
+@media(max-width: 1200px){
+    #overflow .col-md-2{
+        display: none;
+    }
+    #overflow .col-md-4{
+        width: 50% !important;
+        flex: none;
+        max-width: none;
+    }
+}
+@media(max-width: 1000px){
+    #overflow .blockFon div{
+        display: none;
+    }
+    #overflow{
+        height: 400px;
+        background-attachment: local;
+        background: url('img/fonAboutMini1.jpg');
+        background-size: cover;
+    }
+    #overflow .blockFon{
+        height: 400px;
+    }
+    #textAbout{
+        display: block;
+    }
+}
+@media(max-width: 570px){
+    #overflow{
+        height: 400px;
+        background-attachment: local;
+        background: url('img/fonAboutMini.jpg');
+        background-size: cover;
+    }
+    #textAbout h1{
+        font-size: 35px;
+    }
+}
+.textAbout{
+    font-size: 18px;
+    line-height: 1.55;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300;
+}
+#schedule tr:first-child{
+    background-color: #00C9FF;
+    font-weight: 600;
+    font-size: 20px;
+}
+#schedule{
+    width: 100%;
+}
+#schedule tr td{
+    text-align: center;
+    height: 50px;
+}
+.modal-content{
+    overflow-x: scroll;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.navbar-brand{
+    color: white;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding-right: 45px;
+}
+.navbar-brand:hover{
+    color: white;
+}
+@media(max-width: 330px){
+    .navbar-brand{
+        font-size: 21px;
+    }
+}
+.nav-link{
+    color: white !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto', sans-serif !important;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+    padding: 0px 18px !important;
+    cursor: pointer !important;
+} 
+@media(max-width: 990px){
+    .nav-link{
+        font-size: 20px;
+        margin: 4px;
+    } 
+}
+.nav-link:hover{
+    color: #c71010;
+}
+nav{
+    transition: .5s;
+}
+.navBlack{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.number{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Formular',Arial,sans-serif;
+}
+.carousel{
+    height: 100vh;
+    overflow: hidden;
+}
+.carousel-item{
+    background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+    background-position-x: center !important;
+}
+.carousel-item:nth-child(2){
+    background-position-x: right !important;
+}
+.carousel-item:first-child{
+    background: url('img/fon1.jpg');
+}
+.carousel-item:nth-child(2){
+    background: url('img/fon2.jpg');
+}
+.carousel-item:nth-child(3){
+    background: url('img/fon3.jpg');
+}
+.blockFon{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: column
+}
+.blockFon > div{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    color: white;
+    line-height: 1.23;
+}
+.blockFon > div > span{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media(max-width: 380px){
+    .blockFon > div > p:first-child{
+        font-size: 30px;
+    }
+}
+@font-face {
+    font-family: "Formular";
+    src: url("Formular-Light[1].otf") format("opentype");
+    }
+    @font-face {
+        font-family: "Roboto";
+        src: url("Roboto-Light.ttf") format("opentype");
+        }
+.myBtn{
+    color: white;
+    background-color: #c71010;
+    border: 3px solid #c71010;
+    border-radius: 7px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Formular',Arial,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin-top: 50px;
+    transition: .6s;
+}
+.myBtn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #f01b1b;
+}
+.title2{
+    font-size: 34px;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.23;
+    font-weight: 100 !important;
+    color: black;
+}
+.line{
+    width: 140px;
+    height: 1px;
+    background-color: black;
+    margin: 50px 0px;
+}
+.marg{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.paramsFoto{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 25px;
+}
+.paramsTitle{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.35;
+    margin: 0px;
+    color: black;
+}
+.paramsText{
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 1.55;
+    font-family: 'Formular',Arial,sans-serif;
+    font-weight: 300;
+}
+.planTitle{
+    font-size: 36px !important;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 1.5px !important;
+}
+#bigBlock1{
+    height: 90vh;
+    background: url('img/fon4.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+@media(max-width: 430px){
+    #bigBlock1{
+        height: 100%;
+    }
+} 
+.marg2{
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+.blockOffer{
+    border: 1px solid #e9e3e3;
+    border-radius: 9px;
+    padding: 40px 30px;
+    text-align: center;
+    margin: 10px 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+@media (max-width: 780px){
+    .blockOffer{
+        width: 60%;
+    }
+}
+@media (max-width: 500px){
+    .blockOffer{
+        width: 80%;
+    }
+}
+.blockOffer > .myBtn{
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-weight: 900;
+}
+.text1{
+    font-size: 20px;
+    font-family: 'Formular',Arial,sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.text2{
+    font-size: 14px;
+    font-family: 'Formular',Arial,sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.text3{
+    font-weight: 400;
+    color: #777;
+    font-size: 12px;
+    line-height: 1.55;
+    font-family: 'Formular',Arial,sans-serif;
+}
+.text4{
+    font-size: 27px;
+    line-height: 1.23;
+    font-family: 'Formular', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text4 span{
+    font-weight: 900;
+}
+.text5{
+    font-size: 14px;
+    line-height: 1.55;
+    font-family: 'Formular',Arial,sans-serif;
+    font-weight: 300;
+    margin: 0px !important;
+    color: rgba(0, 0, 0, 0.904);
+}
+.map{
+    height: 100%;
+    position: relative;
+}
+.infoMap{
+    position: absolute;
+    background-color: white;
+    top: 20px;
+    left: 50px;
+    padding: 40px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+    .infoMapOut{
+        display: none;
+    }
+@media(max-width: 900px){
+    .infoMap{
+        display: none;
+    }
+    .infoMapOut{
+        display: block;
+    }
+}
+.mapTitle{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.mapTitle > span{
+    color: rgb(199, 16, 16);
+}
+.adress{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+/* галерея */
+label[for] {
+    cursor: pointer;
+   }
+    
+   input[type="checkbox"] {
+    display: none;
+   }
+    
+   .lightbox {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+   }
+    
+   .lightbox {
+    z-index: 1;
+    min-height: 100%;
+    overflow: auto;
+    transform: scale(0);
+    transition: transform .5s ease-out;
+   }
+   
+   .lightbox img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 96%;
+    max-height: 96%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+   }
+    
+   input[type="checkbox"]:checked + .lightbox {
+    transform: scale(1);
+   }
+    
+   input[type="checkbox"]:checked ~ .grid {
+    opacity: .125;
+   }
+    
+   .grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    z-index: 0;
+    padding: 16px;
+    overflow: auto;
+    text-align: center;
+    transition: opacity .75s;
+   }
+/* эффект при наведении */
+   .grid .grid-item {
+    display: inline-block;
+    width: 25%;
+    padding: 16px;
+    transition: opacity .75s;
+   }
+   .grid .grid-item:hover {
+    opacity: 1;
+   }
+   
+   @media screen and (max-width: 1024px) {
+    .grid .grid-item {
+    width: 50%;
+    }
+   }
+   @media screen and (max-width: 480px) {
+    .grid .grid-item {
+    width: 100%;
+    }
+   }
+   .grid img {
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+   }
+   .bottom{
+       box-shadow: none !important;
+       width: 50px;
+       animation: goDown 2s ease-in-out infinite;
+   }
+   #showFoto{
+       cursor: pointer;
+       overflow: hidden;
+       text-decoration: underline;
+       font-size: 18px;
+   }
+   @keyframes goDown{
+    0%{
+        transform: translateY(0%);
+    }
+    25%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-6px);
+    }
+    75%{
+        transform: translateY(2px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+   #footer{
+       background: url('img/fon5.jpg');
+       height: 90vh;
+       background-size: cover;
+       background-attachment: fixed;
+       background-position-x: left;
+   }
+   .formPole{
+       color: black;
+       background: white;
+       border-radius: 7px;
+       height: 56px;
+       outline: none;
+       font-family: 'Formular',Arial,sans-serif;
+       padding: 0px 20px;
+       font-size: 16px;
+       border: 0px none;
+       width: 100%;
+   }
+   #callNow{
+       width: 35%;
+       padding-top: 30px;
+   }
+@media(max-width: 800px){
+    #callNow{
+        width: 60%;
+    }
+    #footer{
+        height: 100%;
+    }
+}
+@media(max-width: 400px){
+    #callNow{
+        width: 90%;
+    }
+}
+   .footerInfo{
+       font-size: 14px;
+       color: white;
+       margin-top: 30px;
+       margin-bottom: 30px;
+       opacity: .7;
+       line-height: 1.45;
+       font-weight: 300;
+       font-family: 'Roboto', sans-serif;
+   }
+   #blackFooter{
+       background-color: black;
+   }
+   .brandFooter{
+       color: #bdbdbd !important;
+       font-size: 14px;
+       line-height: 1.35;
+       font-weight: 600;
+       font-family: 'Formular',Arial,sans-serif;
+   }
+
+.thankText{
+    text-align: center;
+}
